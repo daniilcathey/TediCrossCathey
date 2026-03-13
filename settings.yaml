@@ -1,0 +1,24 @@
+telegram:
+  token: "env"
+  skipOldMessages: true
+  useFirstNameInsteadOfUsername: true
+  colonAfterSenderName: true
+
+discord:
+  token: "env"
+  skipOldMessages: true
+  useNickname: false
+
+bridges:
+  - name: "main-bridge"
+    direction: both
+    telegram:
+      chatId: -1001669451023
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+    discord:
+      channelId: '778727342503100437'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
